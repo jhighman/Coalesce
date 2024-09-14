@@ -10,7 +10,7 @@ Navigate into the project directory: cd coalesce
 To split your OpenAPI swagger.json file into smaller files for easier maintenance, you can use the ReDoc CLI split command.
 Run the following command:
 ```bash
-  redocly split swagger.json -o ./openapi/coalesce.json
+  redocly split swagger.json --outDir=./openapi
 ```
 This will split your swagger.json into multiple files and save them in the openapi directory.
 * Step 4: Serve the Documentation Locally
