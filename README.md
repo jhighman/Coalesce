@@ -2,7 +2,9 @@
 First, clone the repository to your local machine.
 Navigate into the project directory: cd coalesce
 * Step 2: Install Dependencies
-npm install
+  ```bash
+  npm install
+```
 * Step 3: Split the OpenAPI Specification
 To split your OpenAPI swagger.json file into smaller files for easier maintenance, you can use the ReDoc CLI split command.
 Run the following command:
